@@ -1,10 +1,13 @@
 const mongoose = require('mongoose');
 
 const user = new mongoose.Schema({
-    firstName: {
+    blogTitle: {
         type: String
     },
-    lastName: {
+    blogDetails: {
+        type: String
+    },
+    blogCategory: {
         type: String
     }
 });
